@@ -2,10 +2,6 @@
 
 Every project grows to a point it needs to support a Fulltext Search. In this repository I will explore how to use Elasticsearch to index files, provide a Fulltext Search on file contents and provide useful auto-completes. Please regard this repository as a work in progress and it is not finished work in any way.
 
-The Article for this repository can be found at:
-
-* [https://bytefish.de/blog/elasticsearch_fulltext_search/](https://bytefish.de/blog/elasticsearch_fulltext_search/)
-
 ## What we are going to build ##
 
 ### Auto-Complete Search Box ###
@@ -45,10 +41,3 @@ Then you can add migrations for your database like this:
 ```
 PM> add-migration InitialCreate -Context ApplicationDbContext -OutputDir "Database/Migrations" 
 ```
-
-
-## License ##
-
-All code is released under terms of the [MIT License].
-
-[MIT License]: https://opensource.org/licenses/MIT
