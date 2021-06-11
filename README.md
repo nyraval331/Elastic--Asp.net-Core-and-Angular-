@@ -30,14 +30,9 @@ Every project grows to a point it needs to support a Fulltext Search. In this re
 
 ### Create Migrations ###
 
-Install the package ``Microsoft.EntityFrameworkCore.Tools``:
-
-```
-PM> Install-Package Microsoft.EntityFrameworkCore.Tools
-```
 
 Then you can add migrations for your database like this:
 
 ```
-PM> add-migration InitialCreate -Context ApplicationDbContext -OutputDir "Database/Migrations" 
+PM> update-database
 ```
